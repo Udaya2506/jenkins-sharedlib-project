@@ -1,0 +1,19 @@
+{
+    "jenkins-runner.jobs": {
+        "jenkins-shared-lib": {
+            "isDefault": true,
+            "runWith": "host-no-password",
+            "name": "jenkins-shared-lib",
+            
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+        "host-with-password": {
+            "url": "http://localhost:8090",
+            "user": "admin",
+            "password": "admin",
+            "useCrumbIssuer": true,
+            
+        }
+    }
+}
